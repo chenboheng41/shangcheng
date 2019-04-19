@@ -7,7 +7,7 @@ $(function loadPag(no = 0) {
   // 动态获取页面内容
   // var pno = no;
   $.ajax({
-    url: "http://127.0.0.1:3001/category?pno=1",
+    url: "category?pno=1",
     type: "get",
     // data: { pno },
     dataType: "json",//自动JSON.parse()

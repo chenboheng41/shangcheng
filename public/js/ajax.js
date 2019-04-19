@@ -26,17 +26,3 @@ function ajax({url,type,data,dataType}){
 			xhr.send(null);
   })
 }
-/*
-(async function(){
-	//ES7
-	var res=await ajax({
-		url:"http://localhost:3000/index/",
-		type:"get",
-		dataType:"json"
-	})
-	//ES6
-	.then(res=>{
-		... ...
-	})
-})();
-*/

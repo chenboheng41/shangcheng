@@ -14,7 +14,7 @@ $(function () {
     //DOM内容加载后提前执行
     // alert(lid)
     $.ajax({
-      url: "http://127.0.0.1:3001/details",
+      url: "details",
       type: "get",
       data: { lid },
       dataType: "json",//自动JSON.parse()
@@ -33,7 +33,7 @@ $(function () {
           var val=$("#pro-quantity").val()
           console.log(img);
         $.ajax({
-          url: "http://127.0.0.1:3001/user/addcart",
+          url: "addcart",
           type: "get",
           data: { lid,pname,price,img,val},
           dataType: "json",

@@ -6,7 +6,7 @@ $(function(){
   $(".footerpage").load("footer.html")
   // 动态获取页面内容
   $.ajax({
-    url: "http://127.0.0.1:3001/category",
+    url: "category",
     type: "get",
     dataType: "json",//自动JSON.parse()
     // 提前给

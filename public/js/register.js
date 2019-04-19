@@ -75,7 +75,7 @@ $(function () {
 		var email=$("#email").val();
 		var userName=$("#userName").val();
 		$.ajax({//把$uname $upwd发送回去进行验证
-			url:"http://localhost:3001/user/register",
+			url:"register",
 			data:{uname,upwd,email,phone,userName},
 			type:"get",
 			dataType:"json" 

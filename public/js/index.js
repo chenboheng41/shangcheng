@@ -21,7 +21,7 @@ window.onload=function(){
     //return new Promise(function(open){})
       //open(xhr.responseText)
     ajax({
-      url:"http://localhost:3001/index",
+      url:"index",
       type:"get",
       //data:undefined
       dataType:"json"//告诉ajax，将json字符串自动转为对象
