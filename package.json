@@ -1,0 +1,28 @@
+{
+  "name": "shangcheng",
+  "version": "1.0.0",
+  "description": "shangcheng",
+  "main": "app.js",
+  "scripts": {
+    "test": "shangcheng"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenboheng41/shangcheng.git"
+  },
+  "keywords": [
+    "商城"
+  ],
+  "author": "陈波衡",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenboheng41/shangcheng/issues"
+  },
+  "homepage": "https://github.com/chenboheng41/shangcheng#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1"
+  }
+}

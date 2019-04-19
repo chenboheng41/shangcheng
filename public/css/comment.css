@@ -1,0 +1,24 @@
+/*公共样式文件*/
+body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,dl,dd,li{
+                       margin:0;
+                       padding:0;
+                    /* font-family: "arial";
+                       color:rgb(119, 118, 118)*/
+                     
+                    }
+
+  ul,ol,li{list-style:none;}
+  a,u{
+       /*取消下划线*/
+       text-decoration:none;
+       color:#3a3a3a
+    }
+ i, cite, em, var, address, dfn {
+                        font-style:normal;
+                    }
+.hr{clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    color: #3a3a3a;
+    border:1px solid #c4c4c4;
+}

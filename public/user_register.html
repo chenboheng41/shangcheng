@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>
+		
+		欢迎注册
+	</title>
+	<link rel="stylesheet" href="css/user_register.css">
+ </head>
+ <body>
+		<div id="bg" style="min-height:1000px">
+			<thead>
+				<div id="top">
+					<div class="weblogo">
+						<a href="index.html">
+							<img src="img/logo/logo1.png" alt="" class="logo">&nbsp;
+							<strong class="title">KUER</strong>&nbsp;&nbsp;&nbsp;
+							<span>|&nbsp;&nbsp;&nbsp;酷尔商城</span>
+						</a>
+					</div>
+				</div>
+			</thead>
+			<div id="content">
+				<div class="webbg">
+					<div class="webbg_fix">
+						<div class="webbg_fix_register"><span>欢迎注册</span></div>
+						<span class="login">已有酷尔账号&nbsp;<a href="user_login.html">登录</a></span>
+					</div>
+					<div class="detail">
+						<form id="register">
+							<div class="form-register">
+								用户名称：<input class="button_login" type="text" id="uname"  placeholder="请输入用户名"  required>
+								<div id="unameMsg" class="msg">
+									<span class="msg-error" id="unameMsg1">用户名不能为空</span>
+								</div>
+							</div><br>
+							<div class="form-register">
+								登录密码：<input  class="button_login"  type="password" maxlength="12" minlength="6" id="upwd1" placeholder="请输入密码" >
+								
+								<div id="upwdMsg1" class="msg">
+									<span class="msg-error">密码不能为空</span>
+								</div>
+							</div><br>
+							<div class="form-register">
+								确认密码：<input   type="password" id="upwd2" placeholder="请确认密码">
+								<div id="upwdMsg2" class="msg">
+									<span  class="msg-error"  id="pwd_upwdMsg"></span>
+								</div>
+							</div><br>
+							<div class="form-register">
+								联系方式：<input type="text" id="phone" placeholder="请输入您的手机号">
+								<div class="msg" id="phoneMsg">
+									<span></span>
+								</div>
+							</div><br>
+							<div class="form-register">
+								邮箱地址：<input type="text" id="email" placeholder="请输入邮箱地址">
+								<div class="msg" id="emailMsg">
+									<span  class="msg-error"  ></span>
+								</div>
+							</div><br>
+
+
+							<div class="form-register">
+								真实姓名：<input type="text" id="userName" placeholder="请输入真实姓名">
+							</div><br>
+							<!-- <div class="form-register">
+							用户性别：<select id="gender">
+								<option value="1">男</option>
+								<option value="0">女</option>
+								<option value="2">不详</option>
+							</select><br>
+							</div><br> -->
+							<div>
+								<input type="button" value=" 提交注册信息 " id="register_button" class="register">
+							</div>
+						</form>
+							<script>
+								var isRegister=false;//假定用户不存在
+								// function register(){
+								// 	var xhr=new XMLHttpRequest();
+								// 	xhr.onreadystatechange=function(){
+								// 		if(xhr.readyState==4&&xhr.status==200){
+								// 			var result=xhr.responseText;
+								// 			if(result==1){
+								// 				alert("注册成功");location.href="user_login.html";
+								// 			}else{
+								// 				alert("注册失败");
+								// 			}
+								// 		}
+								// 	}
+								// 	xhr.open("post","/user/register",true);
+								// 	var formdata="uname="+uname.value+"&upwd="+upwd1.value+"&email="+email.value+"&phone="+phone.value+"&user_name="+user_name.value+"&gender="+gender.value;
+								// 	// console.log(formdata);
+								// 	xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+								// 	xhr.send(formdata);
+								// }
+								
+								// function checkUname(){
+								// 	var unameMsg1=document.getElementById("unameMsg1")
+								// 	var xhr=new XMLHttpRequest();
+								// 	xhr.onreadystatechange=function(){
+								// 		if(xhr.readyState==4&&xhr.status==200){
+								// 			var result=xhr.responseText;
+								// 			if(result=="0"){
+								// 				unameMsg.innerHTML=`<img src="img/icon/ok.png"/>`;
+								// 				isRegister=true;
+								// 			}else{
+								// 				unameMsg1.innerHTML=" 该用户名已被注册 ";
+								// 				isRegister=false;
+								// 			}
+								// 		}
+								// 	}
+								// 	xhr.open("get","/user/checkUname?uname="+uname.value);
+								// 	xhr.send(null);
+								// }
+							</script>
+					</div>
+				</div>
+				<br><br><br><br>
+					<div id="wenzi">
+						<p>©2020 酷尔技术有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;豫A2-xxxxx号</p>
+					</div>
+			</div>
+			<div class="box-shadow">
+				<ul type="none">
+					<li><a href="#" class="a1">联系我们</a></li>
+					<li><a href="#" class="a1">法律声明</a></li>
+					<li><a href="#" class="a1">隐私政策</a></li>
+				</ul>
+			</div>
+			<script src="js/jquery-3.2.1.js"></script>
+		</div>
+		<script src="js/register.js"></script>
+		<!-- <script src="js/register.js"></script> -->
+ </body>
+</html>

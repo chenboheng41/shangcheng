@@ -1,0 +1,118 @@
+
+
+/*页面底部*/
+#box{
+  width:100%;
+	background: rgb(85, 84, 84);
+	
+}
+
+p{font-size: 12px;}
+/* 底部图标 */
+#box .promise {
+	width: 1050px;
+	padding-top: 50px;
+	height: 73px;
+	/* border-bottom: 1px solid #eaeaea; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#box .promise a{
+	color:#fff;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+#box .promise dl {
+	float: left;
+	width: 189px;
+	overflow: hidden;
+}
+#box .promise dl.promise4{
+	width:145px;
+}
+#box .promise dt {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+}
+#box .promise dt img {
+	display: block;
+	width: 48px;
+	height: 48px;
+}
+ #box .promise dd p {
+	line-height: 24px;
+	width: 100%;
+	color:#fff
+}
+/* 底部文字 */
+#box-shadow {
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:white;
+	padding-top: 23px;
+	border-top: 1px solid #aaa;
+	background: #555454;
+	width: 1200px;
+	height: 160px;
+	margin-top: 70px;
+	text-align: center;
+	margin:0 auto;
+}
+
+#box-shadow>.bottom_logo{
+	position:absolute;
+	top:-37px;
+	left:14%;
+	font-size:24px;
+	height:67px;
+	line-height:50px;
+	font-family:"arial";
+	padding-top:15px;
+}
+#box-shadow>.bottom_logo  .xlogo{
+		color:white;
+		margin-top:53px;
+		}
+#box-shadow>.bottom_logo  .name{
+		color:white;
+		position:absolute;
+		top:108px;
+		font-size:29px;
+    }
+.logo{
+    width:37px;
+    vertical-align:center;
+    }
+.shuoming{
+	position:absolute;
+	left:38%;
+}
+.li_content {
+	font-size:12px;
+	float:left;
+	margin:0px 8px;
+	color:white;
+}
+.li_content a{
+	font-size:12px;
+	color:white;
+}
+.li_content li{
+	margin:10px auto;
+}
+.erweima{
+	position:absolute;
+	top:30px;
+	right:14%;
+	}
+	.erweima p{
+		font-size: 17px;
+		margin-bottom:9px;
+	}	
+.erweima>div{float:left;}
+.erweima>img{float:left;}

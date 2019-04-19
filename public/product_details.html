@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product01</title>
+  <link rel="stylesheet" href="css/comment.css">
+  <link rel="stylesheet" href="css/product-details.css">
+</head>
+<body>
+  <!--header部分-->
+  <header class="headerpage"></header>
+  <!--内容部分-->
+  <div id="content">
+  <div class="detail">
+   <div class="detail-box">
+    <!--面包屑 -->
+    <div class="g">
+      <div class="breadcrumb-area">
+        <a href="index.html" title="首页">首页</a>&nbsp;&gt;&nbsp;
+        <a href="javascript:;" title="手机">手机</a>&nbsp;&gt;&nbsp;
+        <a href="javascript:;" title="HUAWEI Mate系列">HUAWEI Mate系列</a>&nbsp;&gt;&nbsp;
+        <span id="bread-pro-name">HUAWEI Mate 20 6GB+64GB 全网通版（亮黑色）</span>
+      </div>
+    </div>
+    <!--产品-->
+    <div class="product clearfix">
+      <!--产品左侧图-->
+      <div class="left clearfix">
+        <div class="product-gallery">
+          <!--产品大图-->
+          <div class="relative">
+            <div class="product-gallery-img">
+              <a href="javascript:;">
+                <div class="mousetrap">
+                  <img class="my-big" src="img/product/md/11.jpg">
+                  <div id="mask" class="position-absolute d-none"></div>
+                  <div id="super-mask" class="position-absolute"></div>
+                  <div id="div-lg" class="   d-none position-absolute" >
+                    <!-- <img src="img/product/lg/1 (1).jpg" alt=""> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- 放大镜框 -->
+            
+          </div>
+          <!--产品小图-->
+          <div class="product-gallery-nav">
+              <a href="javascript:;" class="product-gallery-back disabled top_left"></a><!--不可点击添加class="disabled"-->
+              <div class="product-gallery-thumbs">
+                  <ul id="pro-gallerys">
+                    <li>
+                      <img class="my-small" src="img/product/sm/11.jpg" data-target="img/product/sm/1-1 (1).png" alt="HUAWEI Mate 20 6GB+64GB 全网通版（亮黑色）">
+                    </li>
+                    <li>
+                      <img class="my-small" src="img/product/sm/11.jpg" data-target="img/product/sm/1-1 (2).jpg" alt="HUAWEI Mate 20 6GB+64GB 全网通版（亮黑色）">
+                    </li>
+                    <li>
+                      <img class="my-small" src="img/product/sm/11.jpg" data-target="img/product/sm/1-1 (3).jpg" alt="HUAWEI Mate 20 6GB+64GB 全网通版（亮黑色）">
+                    </li>
+                    <li>
+                      <img class="my-small" src="img/product/sm/11.jpg" data-target="img/product/sm/1-1 (4).jpg" alt="HUAWEI Mate 20 6GB+64GB 全网通版（亮黑色）">
+                    </li>
+                    
+                  </ul>
+              </div>
+              <a href="javascript:;" class="product-gallery-forward top_right"></a>
+          </div>
+      
+        </div>
+      </div>
+      <!--产品右侧详细信息-->
+      <div class="right clearfix">
+        <div id="pro-add-success-mask"></div>
+        <div class="product-property clearfix relative">
+          <div id="product-property-recommand">
+            <div class="product-meta">
+              <h1 class="pro-name">HUAWEI Mate 20 6GB+128GB 全网通版（亮黑色）</h1>
+              <div class="product-slogan product-slogan-hide" id="skuPromWord" style="display: -webkit-box;">
+                <!--小箭头 详情下拉菜单显示-->
+                <a href="javascript:;" target="_blank" class="product-slogan-link">【老用户购机尊享一年官方碎屏险】华为感恩季，购机即赠小天鹅蓝牙音箱，享6期免息，老用户专属购机通道点击购买&gt;&gt;&gt;&gt;</a> 
+                <a href="javascript:;" class="product-slogan-btn" style="display: block;"></a> 
+                <span>麒麟980新一代人工智能芯片，6.53英寸珍珠屏，超高屏占比，超微距影像，超大广角徕卡三摄旗舰手机</span>
+              </div>
+            </div>
+            <!-- 价格 -->
+            <div class="product-info">
+              <div class="product-info-list clearfix">
+                <label>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</label>
+                <div class="product-price clearfix">
+                  <div class="product-price-info">
+                    <span id="pro-price-label" class="f24" style="display: none;"></span>
+                    <span id="pro-price" class="f24">¥3999.00</span>
+                    <input type="hidden" id="pro-price-hide" value="3999.00">
+                    <s id="pro-price-old" style="display: none;"></s>
+                    <b id="pro-price-label-deposit" style="display:none">订金</b>
+                    <span id="pro-price-deposit" style="display:none"></span>
+                    <b id="pro-price-label-amount" style="display:none">可抵</b>
+                    <span id="pro-price-amount" style="display:none"></span>
+                  </div> 
+                </div>
+              </div>
+              <!--商品简介促销消息-->
+              <div class="product-info-list clearfix " id="product-info-list-new" 1="">
+                <label>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</label>
+                <div class="product-prom fl  show" id="product-prom-all">
+                  <div class="product-prom-item clearfix product-parts" id="pro-match-gift" style="display: block;">
+                    <em class="tag">赠品</em>
+                    <div class="product-prom-con">
+                      <div class="product-parts-list" id="pro-gift-list-select">
+                        <a id="gift-2827" href="javascript:;" target="_blank" title="华为小天鹅蓝牙音箱（白色）">
+                          <img src="https://res.vmallres.com/pimages//product/6901443068319/55_55_1539762632826mp.png" alt="华为小天鹅蓝牙音箱（白色）">
+                        </a>
+                      </div>
+                      <a href="javascript:;" class="product-partscolor" onclick="ec.product.giftshow()">选择&nbsp;&gt;</a>
+                  </div>
+                  </div>
+                  <div class="product-prom-item clearfix" style="display: block;">
+                    <em class="tag">分期免息</em>
+                    <div class="product-prom-con" title="花呗、掌上生活、农行分期支付可享免息"> 
+                      <span class="product-prom-word">花呗、掌上生活、农行分期支付可享免息 </span>
+                    </div>
+                  </div> 
+                  <div class="product-prom-item clearfix" style="display: block;">
+                    <em class="tag">赠送积分</em>
+                    <div class="product-prom-con">购买即赠商城积分，积分可抵现~</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 服务说明 -->
+            <div class="product-pulldown clearfix" id="product-pulldown1">
+              <label>服务说明</label>
+              <p>已满48元已免运费<em></em>
+								由华为商城负责发货，并提供售后服务</p>
+            </div>
+            <div id="pro-skus" class="">
+                <!-- 选择颜色 -->
+              <dl class="product-choose clearfix  product-choosepic">
+                <label>选择颜色</label>
+                <div class="product-choose-detail ">
+                  <ul>
+                    <li class="attr1 attr16 selected">
+                      <div class="sku"><a class="" href="javascript:;" title="亮黑色"><img src="img/product/sm/12.jpg" alt="亮黑色"><p><span>亮黑色</span></p></a></div>
+                    </li>
+                    <li class="attr1 attr16 selected">
+                      <div class="sku"><a href="javascript:;" title="宝石蓝"><img src="img/product/sm/11.jpg" alt="宝石蓝"><p><span>樱粉金</span></p></a></div>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </dl>
+              <!-- 选择版本 -->
+              <dl class="product-choose clearfix ">
+                <label>选择版本</label>
+                <div class="product-choose-detail ">
+                  <ul>
+                    <!-- <li class="selected">
+                      <div class="sku"><a href="javascript:;" title="全网通 6GB+64GB"><p><span>全网通 6GB+64GB</span></p></a></div>
+                    </li>
+                    <li class="selected">
+                      <div class="sku"><a href="javascript:;" title="全网通 6GB+128GB"><p><span>全网通 6GB+128GB</span></p></a></div>
+                    </li> -->
+                  </ul>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <!-- 购买信息 购物车 -->
+          <div id="product-operation" class="product-operation relative" style="display: block;">
+            <div class="clearfix">
+                <div class="product-stock" id="pro-quantity-area" style="display: block;">
+                  <input id="pro-quantity" type="text" class="product-stock-text" placeholder="1" value="1"><p class="product-stock-btn">
+                    <a id="pro-quantity-plus" href="javascript:;">+</a>
+                    <a id="pro-quantity-minus" href="javascript:;" >−</a></p>
+                </div>
+                <div class="product-buttonmain"></div>
+                <div id="pro-operation" class="product-button clearfix" style="visibility: visible;">
+                  <a href="javascript:;" id="tab-addcart-button" class="product-button01" style="background-position-y: 8px;"><span>加入购物车</span>
+                  </a>
+                  <a href="javascript:;" class="product-button02" style="background-position-y: 8px;"><span>立即下单</span>
+                  </a>
+                </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="hr"></div>
+  </div>
+  <br>
+  <!-- 商品详情 书签 -->
+  <div class="product-tab " id="product-tab" ><!--移到顶部的时候添加class="product-tab-top"-->
+    <div class="layout relative" id="layoutRelative">
+      <p>
+        <a href="#pro-tab-feature-content" id="pro-tab-feature" class="selected">商品详情<em></em></a><!--选中 a 添加 class="selected"-->
+        <a href="#hr60Detail" id="pro-tab-parameter" class="">规格参数<em></em></a>
+        <a href="#hr160Detail" id="pro-tab-package-service" style="display: inline;" class="">包装与售后<em></em></a>
+        <a href="#hr260Detail" id="pro-tab-evaluate" class="">用户评价<em></em><span>(35455)</span></a>
+      </p>
+      <div class="product-tab-btn" style="display: none;">
+        <a href="#hr260Detai" id="tab-addcart-button" class="product-button02" style="display: inline-block;">加入购物车</a>
+    </div>
+    </div>
+  </div>
+<!-- 商品详情内容 -->
+  <div id="pro-tab-feature-content" class="product-detail relative tit1">
+    <div id="pro-detail-contents">
+      <div id="pro-detail-content" class="pro-detail-see">
+        <div id="kindPicture">
+          <p><img src="img/product_detail/1.png" alt=""></p>
+          <p><img src="img/product_detail/201901081207012271303.jpg" alt=""></p>
+          <p><img src="img/product_detail/201901031257507708644.jpg" alt=""></p>
+          <p><img src="img/product_detail/201810232126067793754.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126067784199.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126067788118.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126076422824.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126078639491.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126078894098.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126081518730.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126084997214.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126089546576.png" alt=""></p>
+          <p><img src="img/product_detail/20181023212609070379.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126091205258.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126095177242.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126096976520.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126099591890.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126105181311.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126107113072.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126108872036.png" alt=""></p>
+          <p><img src="img/product_detail/20181023212611286190.png" alt=""></p>
+          <p><img src="img/product_detail/201810232126111995988.png" alt=""></p>
+        </div>
+        <!-- 查看全部产品详情按钮 -->
+        <div id="detail-content-button" class="product-shade hide" style="display: block;">
+          <p>
+            <a id="pro-detail-down-btn" class="product-detail-btn">
+              查看全部产品详情
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="hr60Detail" class="hr-60"></div>
+<!-- 商品参数 -->
+  <div id="productParameter" class="product-parameter tit2">
+    <div class="layout" id="product-parameter-main">
+        <h2 id="productParameterId" class="product-title" style="display: block;">规格参数</h2>
+        <div id="productParameterHr30" class="hr-30" style="display: block;"></div>
+        <div id="main-parameter-content-10086100716467" class="product-parameter-main clearfix hide" style="display: block;">
+          <h2>主要参数</h2>
+          <ul>
+            <li><label>传播名</label><span>HUAWEI P20</span></li>
+            <li>
+              <label>后置摄像头</label>
+              <span>2000万像素（黑白，f/1.6 光圈）+1200万像素（彩色，f/1.8光圈），徕卡镜头，支持自动对焦（激光对焦/深度对焦/相位对焦/对比度对焦），支持华为AI防抖 （备注：不同拍照模式的照片像素可能有差异，请以实际为准。）</span>
+            </li>
+            <li>
+              <label>电池容量</label>
+              <span>3400mAh(典型值） 3G通话：最长可达19小时； 4G网页浏览：最长可达16小时； 视频播放：最长可达16小时； 音乐播放：最长可达75小时； 待机时间：最长可达16.3天（以上均为华为功耗模型测试数据，实际待机时间和使用时间取决于网络等多种因素）</span>
+            </li>
+            <li>
+              <label>前置摄像头</label>
+              <span>2400万像素，f/2.0光圈，固定焦距 （备注： 不同拍照模式的照片像素可能有差异，请以实际为准。 前置摄像头采用2480万像素CMOS传感器（理论值），有效像素2400万（理论值）。）</span></li><li><label>上市时间</label>
+              <span>2018年4月</span>
+            </li>
+            <li>
+              <label>屏幕尺寸</label>
+              <span>5.8英寸 （备注：显示屏采用圆角设计，按照标准矩形测量时，屏幕的对角线长度是5.8英寸 (实际可视区域略小)）</span>
+            </li>
+            <li>
+              <label>运行内存（RAM）</label>
+              <span>6GB （备注：可使用的内存容量小于 此值，因为手机软件占用部分空间）</span></li><li><label>屏幕色彩</label>
+              <span>1670万色，色彩饱和度（NTSC）：96%（典型值）</span>
+            </li>
+            <li>
+              <label>机身内存（ROM）</label>
+              <span>64GB（备注：可使用的内存容量小于 此值，因为手机软件占用部分空间）</span></li><li><label>最大支持扩展</label>
+              <span>不支持</span>
+            </li>
+            <li>
+              <label>分辨率</label>
+              <span>2244*1080像素</span>
+            </li>
+            <li>
+              <label>CPU型号</label>
+              <span>麒麟970</span>
+            </li>
+            <li>
+              <label>CPU核数</label>
+              <span>八核 + 微智核i7</span>
+            </li>
+            <li>
+              <label>双卡</label>
+              <span>双卡双待。 备注： *双卡4G网络使用，需要根据运营商网络和相关业务部署情况确定是否支持。后续手机软件功能可能跟随网络匹配升级，请以手机实际版本支持功能为准。*中国电信（中国大陆区域）双卡双VOLTE功能，需手机系统升级到EML-AL00 8.1.0.109(SP5C00)及以上版本。*如果两张都是电信卡，副卡（非默认移动数据卡）必须开通电信VoLTE业务，才能同时使用电信双卡。</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  <div id="hr160Detail" class="hr-60"></div>
+<!-- 商品包装 -->
+  <div id="packagId" class="layout tit3">
+    <h2 id="packagTitleId" class="product-title" style="display: block;">包装</h2>
+    <div id="pro-tab-package-service-content" class="product-packing clearfix" style="display: block;">
+      <div id="pro-tab-package-content">
+        <p>
+          <span style="color: rgb(51, 51, 51);">
+            <em>手机 X 1</em>
+            <em>华为SuperCharge 充电器 X 1</em>
+            <em>Type-C 数字耳机 X 1</em>
+            <em>Type-C 数据线 X 1</em>
+            <em>TPU保护壳 X 1</em>
+            <em>USB Type-C转3.5mm耳机转接线 X1</em>
+            <em>TP保护膜（出厂已贴在手机上）X 1</em>
+            <em>快速指南 X 1</em>
+            <em>取卡针 X 1</em>
+            <em>三包凭证 X 1</em>
+            <em>（备注：最终以实物为准）</em>
+          </span>
+        </p>
+      </div>
+    </div>
+ </div>  
+<!-- 售后服务 -->
+  <div class="layout" id="customerServiceLocation">
+    <h2 id="customerServiceTitle" class="product-title" style="display: block;">售后服务</h2>
+    <div id="customerServiceDiv" class="product-word" style="display: block;">
+      <div class="product-word-middle" id="pro-tab-service-content">
+        <div id="pro-tab-service-content">
+          <p>
+            <span style="color: rgb(51, 51, 51);">本产品全国联保，享受三包服务，质保期为：一年质保</span><br>
+            <span style="color: rgb(51, 51, 51);">如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7天内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！</span><br>
+            <span style="color: rgb(51, 51, 51);">售后服务电话：400-830-8300</span><br>
+            <span style="color: rgb(51, 51, 51);">华为消费者BG官网： </span>
+            <a style="color: rgb(51, 51, 51);" href="https://consumer.huawei.com/cn/">
+              https://consumer.huawei.com/cn/
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 免责声明 -->
+  <div id="productDetailstips" class="layout">
+    <div id="productWordId" class="product-word">
+      <ul>
+        <p></p>
+        <li>*因可能存在系统缓存，页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系我们，以便我们及时补正。</li>
+        <li>*以上页面中的产品图片及屏幕内容仅作示意，实物产品效果（包括但不限于外观、颜色、尺寸）和屏幕显示内容（包括但不限于背景、UI、配图）可能略有差异，请以实物为准。</li>
+        <p></p>
+        <li>*以上页面中的数据为理论值，均来自华为内部实验室，于特定测试环境下所得（请见各项具体说明），实际使用中可能因产品个体差异、软件版本、使用条件和环境因素不同略有不同，请以实际使用的情况为准。</li>
+        <li>*为提供尽可能准确的产品信息、规格参数、产品特性，华为或荣耀可能实时调整和修订以上页面中的文字表述、图片效果等内容，以求与实际产品性能、规格、指数、零部件等信息相匹配，由于产品批次和生产供应因素实时变化，如遇确有进行上述修改和调整必要的情形，恕不专门通知。</li>
+      </ul>
+    </div>
+    <div id="hr260Detail" class="hr-60"></div>
+  </div>
+  <!-- 用户评价 -->
+  <div class="bg-gray tit4">
+    <div id="pro-tab-evaluate-content" class="layout">
+      <div class="product-score clearfix">
+        <div class="product-score-average">
+          <label>好评度</label>
+          <p id="pro-evaluate-avgSorce">99<em>%</em></p>
+        </div>
+        <div class="product-score-impress">
+          <label>买家印象</label>
+          <div class="product-score-impress-info">
+            <ul id="pro-score-impress" class="clearfix"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 评价内容 -->
+<!-- 评价筛选标签 -->
+  <div id="productCommentId" class="layout">
+    <div class="product-comment-tab clearfix">
+      <ul class="clearfix">
+        <li class="current">
+          <a href="javascript:;" extratype="1">最热门</a>
+        </li><!--选中 li 添加 class="current"-->
+        <li>
+          <a href="javascript:;" extratype="2">有图</a>
+        </li>
+        <li>
+          <a href="javascript:;" extratype="0">全部</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- 评价内容 -->
+  <div class="product-comment">
+    <ul id="pro-msg-list" class="product-comment-list">
+      <li class="clearfix">
+        <!-- 用户头像 -->
+        <div class="product-comment-user">
+          <p class="product-comment-user-img">
+            <img src="https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png" alt="https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png">
+            <i class="icon-vip-level-0"></i>
+          </p>
+          <p class="product-comment-user-name">s***d</p>
+        </div>
+        <!-- 用户评价详情 -->
+        <div class="product-user-comment">
+          <div class="product-user-comment-detail">
+            <!-- 评价星级 -->
+            <div class="h clearfix">
+              <div class="product-star">
+                <span class="star"><i style="width:100%"></i></span>
+              </div>
+              <!-- 点赞 -->
+              <div class="fr">
+                <a href="javascript:;" class="product-praise-btn"type="0"><span>0</span></a></div>
+            </div>
+            <!-- 评价内容 -->
+            <div class="product-user-comment-word">原来一直用苹果，好久没换其他牌子，现在换华为惊喜！下载速度超快！运行很流畅！值得拥有！华为支持你！！！</div>
+          </div>
+          <!-- 评价图片 -->
+          <div class="user-comment-img">   
+            <p class="img-small clearfix" id="img-small">
+              <a href="javascript:;" style="cursor:url(https://res.vmallres.com/20190221/images/echannel/icon/zoom-in.cur),auto;" class="img-wrap">
+                <img id="63147926717870" image-large="https://res.vmallres.com/rms/comment/image/U0886/260086000054270886/1080/64251e47e48831f7ca33580f.jpg" src="https://res.vmallres.com/rms/comment/image/U0886/260086000054270886/100/64251e47e48831f7ca33580f.jpg">
+              </a>
+              <a href="javascript:;" style="cursor:url(https://res.vmallres.com/20190221/images/echannel/icon/zoom-in.cur),auto;" class="img-wrap">
+                <img id="63147926717871" image-large="https://res.vmallres.com/rms/comment/image/U0886/260086000054270886/1080/137a307a2479d7ae27af38d7.jpg" src="https://res.vmallres.com/rms/comment/image/U0886/260086000054270886/100/137a307a2479d7ae27af38d7.jpg">
+              </a> 	
+            </p>
+            <!-- 评价图片大图-->
+            <div class="clearfix">   
+              <div class="img-big none">
+                <img src="https://res.vmallres.com/rms/comment/image/U0886/260086000054270886/1080/64251e47e48831f7ca33580f.jpg">     
+                <div class="cursor-prev" style="cursor: url(&quot;https://res.vmallres.com/20190221/images/echannel/icon/arrow-left.cur&quot;), auto; display: none;"></div> 
+              </div>
+            </div>
+          </div>
+          
+          <!-- 时间-->
+          <div class="product-user-comment-time">2019-03-01 21:05:27</div>
+          <!-- 客服回复 -->
+          <div class="product-reply">
+            <div class="product-reply-detail">
+              <div class="product-admin-reply clearfix">
+                <div class="admin-user-img">
+                  <img src="https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_customer_service.png">
+                </div>
+                <dl>
+                  <dt class="red">酷尔商城客服</dt>
+                  <dd>喜欢华为，就好像谈了一场永不分手的恋爱，相信这就是小主现在的心情吧！希望华为能与您红尘作伴，活得潇潇洒洒~</dd>
+                  <dd>
+                    <a href="javascript:;" class="product-admin-praise-btn" type="1">赞客服（<span>1</span>）</a>
+                  </dd>
+                  <dd></dd>
+                </dl>
+              </div>
+              <div class="product-reply-btn" style="display:none;">
+                <a target="_blank" href="javascript:;">查看全部
+                <span>1</span>条回复
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+           
+</div>
+<!--底部-->
+<br>
+</div>
+<footer class="footerpage"></footer>
+
+  <script src="js/jquery-3.2.1.js"></script> 
+  <script src="js/details12.js"></script> 
+
+</body>
+</html>

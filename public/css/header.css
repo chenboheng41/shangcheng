@@ -1,0 +1,107 @@
+herder{
+  width:100%;
+  height:80px;
+  z-index:10;
+  margin-bottom:30px;
+}
+
+/* 页面顶部logo*/
+#bg{
+	background-color:#f5f5f5;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+#top{
+	background-color: #333333;
+  height:50px;
+	width:100%;
+	position:relative;
+}
+
+.weblogo{
+	position:absolute;
+	top:5px;
+	left:25%;
+	color:white;
+    font-size:24px;
+    height:67px;
+    line-height:50px;
+    font-family:"arial";
+    padding-top:15px;
+}
+.logo{
+	width:35px;
+	vertical-align:center;
+}
+.weblogo > a{color:white;}
+
+
+
+#daohang{
+	width:1000px;
+	margin:40px auto 40px;
+  min-height:30px;
+  position: relative;
+	/*border:1px solid red;*/
+}
+#weblogo  .logo2{
+	width:31px;
+	vertical-align:center;
+	
+	}
+#weblogo{
+    font-size:20px;
+    height:67px;
+    line-height:50px;
+    font-family:"arial";
+	float:left;
+	display: fixed;
+}
+#weblogo > a{color:#333333;}
+/*搜索框*/
+.search{
+  width:290px;
+  position: absolute;
+  left:350px;
+  top:12px
+}
+.search .search_left{
+ /* border: 1px solid #adadad;*/
+  border:0;
+  color: #3a3a3a;
+  width: 290px;
+  text-indent: 15px;
+  height: 34px;
+  line-height: 30px;
+  padding-right: 30px;
+  background: #f2f2f2;
+  border-radius: 15px;
+  float: left;
+  position: relative;
+}			
+.search .search_right{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: absolute;
+    right: -32px;
+    background: url(../img/index/search.png) no-repeat;
+    background-size: 18px;
+    background-position: center center;
+    background-color: #a70000;
+      }
+input:focus{outline: 0}
+#login > .left > li{float:left;}
+#login  .left  img{vertical-align:middle;}
+#login  b{margin:0 8px;color:rgb(119, 118, 118);}
+#login > .right > li{float:left;}
+#login > .left > li a{color:rgb(119, 118, 118);}
+#login{
+	margin:18px 10px 0;
+	float:right;
+  }
+  .font{font-size:14px;}

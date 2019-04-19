@@ -1,0 +1,183 @@
+body,h1,h2,h3,h5,h6,p{
+          margin:0;padding:0;
+		  }
+ol,ul{list-style:none;}
+a,u{
+    /*取消下划线*/
+	text-decoration:none;
+	}
+
+/* 页面顶部logo*/
+#bg{
+	background-color:#f2f2f2;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+#top{
+	background-color: #333333;
+    height:80px;
+	width:100%;
+	position:relative;
+}
+
+.weblogo{
+	position:absolute;
+	top:5px;
+	left:25%;
+	color:white;
+    font-size:24px;
+    height:67px;
+    line-height:50px;
+    font-family:"arial";
+    padding-top:15px;
+}
+.logo{
+	width:35px;
+	vertical-align:center;
+}
+.weblogo > a{color:white;}
+
+/*登录内容*/
+#content{	
+	width:800px;
+	margin:0 auto;
+}
+.webbg{
+	width:100%;
+	height:40px;
+    margin:0px auto;
+    background: #f2f2f2;
+}
+.webbg_fix{
+	margin:-85px auto 0px;
+    padding-top:10px;
+    width:100%;
+}
+.webbg_fix_register{
+	position:relative;
+	background:#B40707;
+	color:white;
+	font-size:17px;
+	font-family:"微软雅黑";
+	width:130px;
+	height:25px;
+	text-align:center;
+	padding:10px 0;
+	margin-top:10px;
+}
+.webbg_fix  a{color:red;}
+.detail{
+	padding:30px 0;
+	margin:0 auto;
+	width:100%;
+    font-size:16px;
+    color:#333;
+    background:#fff;
+	height:530px
+}
+.phone,.email{
+	width:14%;
+	padding:0px;
+	margin-top:10px
+}
+.login{
+	float:right;
+	margin-top:-25px;
+	margin-right:20px;
+	font-size:15px;
+}
+.login > a:link{
+	color:#B40707;
+}
+/*注册信息框*/
+.form-register{
+	margin-left:11%;	
+	position: relative;
+}
+
+.msg{
+	float:right;
+	position: absolute;
+	left:360px;
+	top:20px;
+	/* background-color:#d00; */
+	border-radius:2px;
+	color:#d00;
+	font-size:12px;
+	text-align: center;
+}
+.msg1{
+	float:right;
+	position: absolute;
+	left:360px;
+	top:20px;
+	background-color:#fff;
+	border-radius:2px;
+	color:white;
+	font-size:12px;
+	text-align: center;
+}
+.msg span{
+	display: inline-block;
+}
+
+.form-register > input{
+	padding:10px 20px;
+	width:225px;
+	margin-top:12px;
+	border-radius:2px;
+	font-size: 14px
+}
+.hidden{
+	display:none;
+}
+.register{
+	font-size: 18px;
+	position:relative;
+	width: 276px;
+  color: #fff;
+	border:0 solid #333;
+  border-radius: 2px;
+	background:#B40707;
+	padding:10px 20px;
+	margin-left:22.5%;
+}
+/*页面底部*/
+#wenzi{
+	text-align:center;
+	margin-top:560px;
+	}
+#wenzi>p{margin:40px 200px 0;}
+.box-shadow {
+	padding-top: 23px;
+	border-top: 1px solid #aaa;
+	background: #333;
+	width: 100%;
+	height: 50px;
+	margin-top: 92px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+
+ul{
+	margin:0 auto;
+	padding:0;
+}
+li{
+	
+	font-size:18px;
+	color:white;
+	display: inline-block;
+	margin:0 80px;
+}
+.a1:link{color:white;}
+.a1:visited{color:white;}
+
+
+
+
+
+
+

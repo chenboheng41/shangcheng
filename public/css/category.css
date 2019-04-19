@@ -1,0 +1,239 @@
+/*头部*/
+div.my_header{
+	display:fixed;
+	z-index: 1;
+	width:100%;
+}
+body{
+  font-size: 14px;
+  color:#333
+}
+.hr-10{
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  height: 10px;
+}
+/* 面包屑导航 */
+.g {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 分类 */
+.clearfix::before,.clearfix::after{
+  content: " ";
+  display: table;
+}
+.pro-cate-area {
+  margin-top:20px;
+  width: 1200px;
+  height:125px;
+  margin: 0 auto;
+  border: 1px solid #dedede;
+  font-family: 'Tahoma',"Microsoft Yahei";
+}
+.pro-cate-area .pro-cate-attr{
+  height:50%;
+  border-bottom: 1px solid #dedede;
+}
+.pro-cate-area .p-values {
+  margin-left: 35px;
+  padding: 10px 0;
+}
+.pro-cate-area .p-operate {
+  float: right;
+  padding: 6px 20px 6px 0;
+}
+.pro-cate-area .p-title{
+  float: left;
+}
+.pro-cate-area .p-default{
+  float: left;
+  padding: 0 20px 0 10px;
+}
+.pro-cate-area .p-expand ul li{
+  float:left;
+  margin-right:10px;
+}
+/* 产品类别排序 */
+.pro-cate-area .pro-cate-sort .p-title{
+  margin:10px 10px 0 35px 
+}
+.pro-cate-area .pro-cate-sort a{
+  position: relative;
+  margin-right:20px;
+}
+/* 上下小箭头 */
+.pro-cate-area .pro-cate-sort s{
+  background:url(../img/icon/icon1.png) scroll no-repeat;
+  background-position: 0 -70px;
+  height:10px;
+  margin-top:-5px;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  width: 8px;
+}
+/* 产品列表 */
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+}
+.channel-list {
+  text-align: right;
+}
+.product-main{text-align: right}
+.clearfix::after,.clearfix::before{
+  clear: both;
+  CONTENT:"";
+  display: table;
+}
+.list {
+  width: 1220px;
+  padding-bottom: 20px;
+}
+.pro-list{
+  padding-top:20px;
+}
+
+.list .pro-list  ul li{
+  float: left;
+  width: 20%;
+}
+.list .pro-list .pro-panels {
+  margin: 0 20px 20px 0;
+  border: 1px solid #dedede;
+  height: 362px;
+  position: relative;
+  text-align: center;
+  font-family: 'Tahoma',"Microsoft Yahei";
+  overflow: hidden;
+}
+
+
+/* 图片 */
+.list .p-img {
+  padding: 38px 0 24px;
+  text-align: center;
+}
+.list .p-img img {
+  vertical-align: top;
+  width: 180px;
+  height: 180px;
+}
+/* 图片下产品名称 */
+.list .p-name {
+  line-height: 16px;
+  padding: 0 20px;
+  min-height: 38px;
+  overflow: hidden;
+}
+.list .p-name a{color:#666;}
+/* 产品价格 */
+.list .p-price {
+  color: #e01d20;
+  line-height: 30px;
+}
+.list .p-price b {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial,Helvetica,sans-serif;
+}
+/* 选购按钮及评价人数 */
+.list .p-button {
+  position: absolute;
+  left: -1px;
+  width: 224px;
+  bottom: -1px;
+}
+.list .p-button table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.list .p-button table tr{font-size: 12px;}
+
+.list .p-button td {
+  border: 1px solid #dedede;
+}
+.list .p-button .p-button-cart, .channel-list .pro-list .p-button .p-button-an {
+  color: #e01d20;
+  line-height:30px;
+}
+/* 新品 爆款 热卖 标签 */
+.list .p-tag {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  right: 12px;
+  top: 180px;
+  z-index: 2;
+}
+.list .p-tag img {
+  height: 48px;
+  width: 48px;
+}
+
+/* 分页 */
+
+.list .text-muted {
+  color: #6c757d !important;
+  background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  position: relative;
+}
+.list .small {
+  font-size: 80%;
+  font-weight: 400;
+  height: 60px;
+}
+.list .page-item.disabled {
+  opacity: 0.5;
+}
+.list .pagination{
+  position: absolute;
+  right:20px;
+  top:12px;
+}
+.list .pagination .page-item{
+  float:left;
+  border:1px solid #cacaca;
+  border-right: 0;
+  padding:10px 15px 10px 15px; 
+  /* border-radius: 3px; */
+}
+.list .pagination .page-item a{color:#666}
+.list .pagination li:first-child{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.list .pagination li:last-child{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-right:1px solid #cacaca;
+}
+.disabled{display: inline-block;}
+/* 页码点击变色 */
+.list .pagination .redPage{
+  /* border:3px solid rgba(202,21,29,0.5) */
+  box-shadow: 2px 2px 7px #970300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

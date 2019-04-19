@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎登陆</title>
+	<link rel="stylesheet" href="css/user_login.css">
+</head>
+<body>
+		<div id="bg" style="min-height:1000px">
+		  <thead>
+				<div id="top">
+					<div class="weblogo">
+						<a href="index.html">
+							<img src="img/logo/logo1.png" alt="" class="logo">&nbsp;
+							<strong class="title">KUER</strong>&nbsp;&nbsp;&nbsp;
+							<span>|&nbsp;&nbsp;&nbsp;酷尔商城</span>
+						</a>
+					</div>
+				</div>
+			</thead>
+			<div id="content">
+				<div class="webbg">
+					<div class="webbg_fix">
+						<div class="webbg_fix_login"><span>欢迎登录</span></div>
+						<span class="login">新用户&nbsp;<a href="user_register.html">注册</a></span>
+					</div>
+					<div class="detail">
+						<form id="login">
+							<div class="form-login login_uname">
+								用户名称：<input type="text" id="uname" class="button_login uname"  placeholder="请输入用户名">
+								<span class="warn errUname hidden"></span>
+							</div><br>
+							<div class="form-login login_upwd">
+								用户密码：<input type="password" id="upwd" class="button_login upwd" placeholder="请输入密码">
+								<span id="msg" class="warn errUpwd"></span>
+							</div>		
+							<input type="button" value="登录" onclick="login()" class="button">
+						</form>
+					</div>
+				</div>
+				<div id="wenzi">
+					<p>©2020 酷尔技术有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;豫A2-xxxxx号</p>
+				</div>
+			</div>
+			<div class="box-shadow">
+				<ul type="none">
+					<li><a href="#" class="a1">联系我们</a></li>
+					<li><a href="#" class="a1">法律声明</a></li>
+					<li><a href="#" class="a1">隐私政策</a></li>
+				</ul>
+			</div>
+		</div>	
+	<script src="js/jquery-3.2.1.js"></script>
+	<!-- <script src="js/user_login.js"></script> -->
+		<script>
+			function login(){
+				//1.获取xhr
+				var xhr=new XMLHttpRequest();
+				//2.绑定监听
+				xhr.onreadystatechange=function(){
+					if(xhr.readyState==4 && xhr.status==200){
+						var result=xhr.responseText;
+						// console.log(result);
+						if(result=="1"){
+							// msg.innerHTML="";
+							alert("登录成功,点击确认跳转首页!");location.href="index.html";
+						}else{
+							alert("用户名或密码错误,请重新输入!");
+							// msg.innerHTML="用户名或密码错误,请重新输入!"
+						}
+					}
+				}
+				//3.打开链接，创建请求
+				xhr.open("post","/user/login",true);
+				var formdata="uname="+uname.value+"&upwd="+upwd.value;
+				xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				//4.发送请求
+				xhr.send(formdata);
+			}
+		</script>
+		<script src="js/login.js"></script>
+</body>
+</html>
