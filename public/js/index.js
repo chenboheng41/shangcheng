@@ -51,7 +51,7 @@ window.onload=function(){
         var p=res[i];
         // console.log(p);
         html+=`<li class="list-item item-da">
-        <a href="#" class="tu">
+        <a href="${p.href}" class="tu">
           <div class="item-da-zi">
             <div class="item-zi">
               <div class="item-title"><h4>${p.title}</h4> </div>
