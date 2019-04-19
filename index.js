@@ -8,7 +8,7 @@ const category=require('./router/category.router');
 //创建web服务器
 var server=express();
 //连接监听端口3001
-server.listen(3001);
+server.listen(5050);
 
 //托管静态资源到public目录下
 server.use(express.static('public'));
