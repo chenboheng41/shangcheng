@@ -33,7 +33,7 @@ $(function () {
           var val=$("#pro-quantity").val()
           console.log(img);
         $.ajax({
-          url: "addcart",
+          url: "user/addcart",
           type: "get",
           data: { lid,pname,price,img,val},
           dataType: "json",

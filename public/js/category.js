@@ -6,6 +6,7 @@ $(function loadPag(no = 0) {
   $(".footerpage").load("footer.html")
   // 动态获取页面内容
   // var pno = no;
+  
   $.ajax({
     url: "category?pno=1",
     type: "get",
@@ -14,13 +15,14 @@ $(function loadPag(no = 0) {
     // 提前给
     success: function (result) {
       //1. 将商品基本信息显示到对应元素中
+      
       var html = "";
       for (var p of result) {
-        // console.log(p.pic)
+        console.log(111)
         html += `<li>
         <div class="pro-panels">
           <p class="p-img">
-            <a target="_blank" href="${p.href}" title="HUAWEI nova 4" onclick="pushListProClickMsg('2601010086603')">
+            <a target="_blank" href="product_details.html?lid=${p.pid}" title="HUAWEI nova 4" onclick="pushListProClickMsg('2601010086603')">
               <img alt="nova 4  4800万超广角三摄 全网通版（贝母白）" src="${p.pic}">
             </a>
           </p>
@@ -36,7 +38,7 @@ $(function loadPag(no = 0) {
               <tbody>
                 <tr>
                   <td>
-                    <a target="_blank" href="/product/10086254040251.html" class="p-button-cart">
+                    <a target="_blank" href="JavaScript:;" class="p-button-cart">
                       <span>选购</span>
                     </a>
                   </td>

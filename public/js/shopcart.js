@@ -8,7 +8,7 @@ $(function () {
 	var uid = location.search.split("=")[1];
 	//    console.log(uid)
 	$.ajax({
-		url: "shopcart",
+		url: "http://127.0.0.1:3001/user/shopcart",
 		type: "get",
 		data: { uid },
 		dataType: "json",
@@ -72,7 +72,7 @@ $(function () {
 	//点击删除购物车开始
 	$(".del").click(function () {
 		$.ajax({
-			url: "delet",
+			url: "user/delet",
 			type: "get",
 			dataType: "json",
 			success: function (result) {
